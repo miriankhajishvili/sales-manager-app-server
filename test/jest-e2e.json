@@ -1,0 +1,25 @@
+{
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts"
+  ],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "libs/database/(.*)": "<rootDir>/../libs/database/src/$1",
+    "libs/database": "<rootDir>/../libs/database/src",
+    "libs/users/(.*)": "<rootDir>/../libs/users/src/$1",
+    "libs/users": "<rootDir>/../libs/users/src",
+    "libs/utils/(.*)": "<rootDir>/../libs/utils/src/$1",
+    "libs/utils": "<rootDir>/../libs/utils/src",
+    "libs/auth/(.*)": "<rootDir>/../libs/auth/src/$1",
+    "libs/auth": "<rootDir>/../libs/auth/src",
+    "libs/products/(.*)": "<rootDir>/../libs/products/src/$1",
+    "libs/products": "<rootDir>/../libs/products/src"
+  }
+}
