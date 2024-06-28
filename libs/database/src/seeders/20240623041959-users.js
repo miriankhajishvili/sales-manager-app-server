@@ -315,8 +315,8 @@ module.exports = {
         updatedAt: '2001-09-24T22:58:26.109Z',
       },
       {
-        firstName: 'gela',
-        lastName: 'gnolidze',
+        firstName: 'Mirian',
+        lastName: 'Khajishvili',
         password: hashedAdminPassword1,
         totalPriceOfSellingProducts: 0,
         email: 'admin@admin.com',
